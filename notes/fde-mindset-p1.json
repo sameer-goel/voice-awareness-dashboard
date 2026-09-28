@@ -1,0 +1,68 @@
+{
+  "focus": "Think at the full stop, not inside the phrase. Your silence is a strength; it is just in the wrong place.",
+  "strengths": [
+    {"text": "Almost no um or uh. You use silence instead of filler sounds."},
+    {"text": "Low, steady voice (median about 108 Hz) with very consistent loudness across all 11 minutes."},
+    {"text": "Clear words overall: transcription confidence averages 0.92."},
+    {"t": 352, "text": "\"I am fully committed to it.\" lands with a clean falling ending."}
+  ],
+  "observable": [
+    {"t": 76.7, "text": "\"the person knows what ‖about 3 s‖ things he automates\": the pause splits one short phrase."},
+    {"t": 96.0, "text": "\"repeatable ‖3.1s‖ purely without logic that you think you ‖2.1s‖ should be automating\"."},
+    {"t": 205.6, "text": "\"how you ‖3.7s‖ are communicating\": the pause splits subject from verb."},
+    {"t": 539.3, "text": "\"this four belief ‖3.0s‖ system\": the pause splits one term."},
+    {"t": 118.0, "text": "About 12 s of mostly silence between \"okay\" and \"in a simple language\" (1:58 to 2:14)."},
+    {"t": 523.7, "text": "About 15 s of mostly silence after \"my compensation\" (8:43 to 8:58)."},
+    {"t": 300, "text": "Fastest overall minute (5:00 to 6:00, 112 wpm) is the key accountability point."},
+    {"t": 600, "text": "Flattest pitch is the call to action (10:00 to 11:00): variation drops to about 1.7 semitones."},
+    {"t": 320, "text": "Doubled phrases: \"commit button, commit button\" (5:20); also 1:01, 2:24, 7:58, 10:24."},
+    {"t": 5.1, "text": "Speech starts 5.1 s into the file."}
+  ],
+  "interpretation": [
+    {"text": "Mid-phrase pauses sound like composing live, not landing a point. This is the biggest drag on presence."},
+    {"t": 300, "text": "Emphasis is inverted: setup is slowest, the strongest idea is rushed."},
+    {"t": 320, "text": "Repetition is doing the job a single stressed word plus a pause would do better."},
+    {"t": 42.1, "text": "Some statements end rising (\"and that's it.\" 0:42, \"learning together.\" 10:18), which can sound tentative."},
+    {"t": 230, "text": "Soft first words after pauses (\"Then\", \"Take\") suggest weak onsets or a noise gate clipping consonants."}
+  ],
+  "unknown": [
+    "Whether pauses come from nerves, improvising, notes, or retakes and edits.",
+    "Voice health: jitter, shimmer and HNR on YouTube-compressed audio are not diagnostic.",
+    "True loudness and projection in a room; levels depend on mic and mastering.",
+    "Whether this is your habitual range or a style choice for this video.",
+    "How your specific audience perceives the voice; check YouTube retention at 2:00 and 8:45."
+  ],
+  "exercises": [
+    {"id": "boundary", "title": "Pause at boundaries, never inside a phrase", "minutes": 8, "metric": "mid_clause_pct",
+     "t": 73.5,
+     "steps": ["Take the 1:13 to 1:56 passage and put slashes only at phrase boundaries.", "Re-record with one breath and one pause per slash.", "No gap inside \"what things\", \"you should\", \"how you are\".", "Play back at 1.5x speed: misplaced gaps stand out."],
+     "target": "Under 10% of pauses mid-phrase (baseline 41%)."},
+    {"id": "gearshift", "title": "Gear shift: fast connective, slow key point", "minutes": 6, "metric": "wpm_gross",
+     "t": 300,
+     "steps": ["Connective sentences at about 140 wpm.", "The four core lines at about 110 wpm with a deliberate 1 to 1.5 s pause after each.", "Start with 5:00 to 6:00, currently your fastest section.", "Stopwatch check: 60 s holds about 140 words normally."],
+     "target": "Key section becomes your slowest, not your fastest."},
+    {"id": "landing", "title": "Land the ending + four-door staircase", "minutes": 5, "metric": "falling_end_pct",
+     "t": 42.1,
+     "steps": ["Record 10 statements from the video with the last stressed syllable clearly lower.", "Say first, second, third, fourth each a step higher.", "Drop down on the final sentence."],
+     "target": "Most statements fall; pitch variation above 3 semitones."},
+    {"id": "onestress", "title": "One stress instead of a repeat", "minutes": 5, "metric": "repeats",
+     "t": 320,
+     "steps": ["When you want to say it twice, say it once.", "Stress the key word louder and longer: \"the COMMIT button\".", "Pause 1 s after it.", "Say the simple version instead of \"to make it simple\"."],
+     "target": "Zero doubled phrases in a 3-minute take."},
+    {"id": "onset", "title": "Breath in the pause, strong first word", "minutes": 5, "metric": "f0_sd_st",
+     "t": 600,
+     "steps": ["Inhale during each pause.", "Start the next word on a crisp first consonant at full volume.", "Record 10:00 to 11:02 standing, with the last minute as energetic as the first.", "If you use a noise gate, lower the threshold or add a 10 to 20 ms attack."],
+     "target": "Final minute pitch variation matches the opening."},
+    {"id": "think3", "title": "3-second think drill", "minutes": 10, "metric": "mid_clause_pct",
+     "steps": ["Pick a prompt question.", "Stay silent for 3 s and decide your LAST word.", "Answer in one or two sentences with no stops.", "If you stall mid-sentence, restart the sentence from the beginning."],
+     "target": "Phrases play back as unbroken chunks."}
+  ],
+  "thinkFirst": [
+    {"title": "Know the last word first", "text": "Before speaking, picture the word the sentence ends on. The middle follows."},
+    {"title": "Short sentences", "text": "\"Some tasks are repeatable. They need no judgement. Automate those.\" Each fully planned before you start it."},
+    {"title": "Pause, see it, say it", "text": "At each full stop: close mouth, breathe, see the whole sentence, then say it in one go."},
+    {"title": "One breath per phrase", "text": "About 5 to 9 words. Split longer thoughts at the comma, with a breath."},
+    {"title": "Stalled? Finish the chunk", "text": "Push to the end of the phrase, then pause. A comma pause sounds deliberate; a pause after \"the\" sounds lost."},
+    {"title": "Script the anchors", "text": "Write the opener, each key point and the call to action word for word. Improvise the rest."}
+  ]
+}
