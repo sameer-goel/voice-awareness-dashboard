@@ -1,0 +1,13 @@
+# Local analysis/runtime artifacts
+__pycache__/
+*.pyc
+run.log
+.qa/node_modules/
+.qa/package-lock.json
+.qa/*.png
+.qa/*.dom.html
+.qa/take.*
+.DS_Store
+
+# Local browser state / generated test outputs
+.vad-state/
